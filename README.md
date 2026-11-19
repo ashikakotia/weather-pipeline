@@ -9,3 +9,8 @@ Why: practice API extraction, table design, idempotent loads,
 window-function SQL and scheduling on real, free data.
 Status
 In progress (started on 11/17/2026).
+
+
+## Data model
+`raw_daily_weather`: one row per city per day. Primary key is (city, date),
+so loading the same day twice updates the row instead of duplicating it.
