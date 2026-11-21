@@ -1,4 +1,4 @@
-Settings for the weather pipeline: which cities to track and which fields to fetch.
+"""Settings for the weather pipeline: which cities to track and which fields to fetch."""
 
 CITIES = [
     {"name": "New York", "latitude": 40.71, "longitude": -74.01},
